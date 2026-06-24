@@ -3,7 +3,11 @@ import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Trash2, CheckCircle2, Circle, Clock, Tag } from 'lucide-react';
 
+<<<<<<< HEAD
 const API_URL = '/api/items';
+=======
+const API_URL = `http://${window.location.hostname}:5000/api/items`;
+>>>>>>> f963c2493ca88b22df437cce6381b46621a68c87
 
 function App() {
   const [items, setItems] = useState([]);
