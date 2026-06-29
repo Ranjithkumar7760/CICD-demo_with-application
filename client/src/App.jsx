@@ -68,7 +68,7 @@ function App() {
     <div className="container">
       <header className="flex justify-between" style={{ marginBottom: '3rem', alignItems: 'center' }}>
         <div>
-          <h1>DevStack CRM</h1>
+          <h1>DevStack CRM demo</h1>
           <p style={{ color: 'var(--text-secondary)' }}>Manage your development tasks with ease.</p>
         </div>
         <button className="btn btn-primary" onClick={() => setIsFormOpen(!isFormOpen)}>
